@@ -1,6 +1,6 @@
 /** Configuration centrale du site (générée par new-site.py). */
-export const SITE_URL = "https://de-umweltzone.example";
-export const SITE_NAMES: Record<string, string> = {"de": "DE Umweltzone", "en": "DE Umweltzone"};
+export const SITE_URL = "https://umweltzonecheck.de";
+export const SITE_NAMES: Record<string, string> = {"de": "Umweltzone Check", "en": "Umweltzone Check"};
 // Partie du nom affichée en couleur dans l'en-tête (RECETTE §10.3), « » pour aucune.
 export const BRAND_ACCENT = "Umweltzone";
 export const LANG_TAGS: Record<string, string> = {"de": "de-DE", "en": "en-DE"};
@@ -20,7 +20,7 @@ export const AUTHOR_DESC: Record<string, string> = {"de": "Radif Partners gleich
  *  themes reellement traites par le site, pas une liste de mots-cles : un sujet
  *  declare ici sans page qui le couvre est une declaration fausse. */
 export const KNOWS_ABOUT: Record<string, string[]> = {"de": ["Umweltzonen nach § 40 BImSchG", "Kennzeichnungsverordnung (35. BImSchV)", "Schadstoffgruppen und Umweltplaketten", "Luftreinhaltepläne der Länder und Städte", "Diesel-Verkehrsverbote"], "en": ["Low-emission zones under section 40 of the Federal Immission Control Act", "Labelling Ordinance (35th BImSchV)", "Emission groups and environmental stickers", "Clean-air plans of the German states and cities", "Diesel driving bans"]};
-export const CONTACT_EMAIL = "contact@de-umweltzone.example";
+export const CONTACT_EMAIL = "contact@umweltzonecheck.de";
 export const THEME_COLOR = '#166534';
 export const LOGO_SYMBOL = 'UZ';
 export const BING_VERIFY_CODE = '';
