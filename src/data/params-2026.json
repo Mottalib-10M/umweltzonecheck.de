@@ -1,0 +1,353 @@
+{
+ "_lies_mich": "Alle Regeln und Beträge der Rechner stehen hier oder in zonen.json, nie im Code (RECETTE-SITE.md §4). Jeder Wert wurde am Datum retrieved_at auf der genannten amtlichen Seite gelesen. Was keine amtliche Quelle bestätigt, steht als „nicht bestätigt“.",
+ "year": 2026,
+ "retrieved_at": "2026-10-29",
+ "valid_from": "2026-01-01",
+ "valid_to": "2026-12-31",
+ "uba_stand": "2026-08-26",
+ "uba_seite_stand": "2025-12-10",
+ "bussgeld": {
+  "betrag": 100,
+  "punkte": 0,
+  "nr": "153"
+ },
+ "gebuehr": {
+  "min": 5,
+  "max": 10,
+  "leipzig": 6
+ },
+ "e_kennzeichen_ab": "2026-10-01",
+ "eu_2030": {
+  "pm10": 20,
+  "no2": 20,
+  "pm25": 10,
+  "pm10_alt": 40,
+  "no2_alt": 40,
+  "pm25_alt": 25
+ },
+ "gruen_anteil_min": 90,
+ "sources": {
+  "ubaListe": {
+   "url": "https://gis.uba.de/website/umweltzonen/index.php",
+   "label": {
+    "de": "Umweltbundesamt, Umweltzonen in Deutschland: Liste und Karte (letzte Änderung 26.08.2026)",
+    "en": "German Environment Agency (UBA), low-emission zones in Germany: list and map (last change 26 Aug 2026)"
+   }
+  },
+  "uba": {
+   "url": "https://www.umweltbundesamt.de/themen/luft/luftschadstoffe/feinstaub/umweltzonen-in-deutschland",
+   "label": {
+    "de": "Umweltbundesamt, Umweltzonen in Deutschland (Stand 10.12.2025)",
+    "en": "German Environment Agency (UBA), low-emission zones in Germany (as of 10 Dec 2025)"
+   }
+  },
+  "bimschv35": {
+   "url": "https://www.gesetze-im-internet.de/bimschv_35/",
+   "label": {
+    "de": "35. BImSchV, Kennzeichnungsverordnung (zuletzt geändert am 25.09.2026)",
+    "en": "35th BImSchV, the Labelling Ordinance (last amended 25 Sep 2026)"
+   }
+  },
+  "anhang2": {
+   "url": "https://www.gesetze-im-internet.de/bimschv_35/anhang_2.html",
+   "label": {
+    "de": "35. BImSchV, Anhang 2: Zuordnung zu den Schadstoffgruppen",
+    "en": "35th BImSchV, Annex 2: assignment to emission groups"
+   }
+  },
+  "anhang3": {
+   "url": "https://www.gesetze-im-internet.de/bimschv_35/anhang_3.html",
+   "label": {
+    "de": "35. BImSchV, Anhang 3: Ausnahmen von der Kennzeichnungspflicht",
+    "en": "35th BImSchV, Annex 3: vehicles exempt from the sticker"
+   }
+  },
+  "p4": {
+   "url": "https://www.gesetze-im-internet.de/bimschv_35/__4.html",
+   "label": {
+    "de": "35. BImSchV, § 4: Ausgabestellen der Plaketten",
+    "en": "35th BImSchV, section 4: who issues the stickers"
+   }
+  },
+  "p5": {
+   "url": "https://www.gesetze-im-internet.de/bimschv_35/__5.html",
+   "label": {
+    "de": "35. BImSchV, § 5: Nachweis über die Schlüsselnummer",
+    "en": "35th BImSchV, section 5: proof by the emission key number"
+   }
+  },
+  "p6": {
+   "url": "https://www.gesetze-im-internet.de/bimschv_35/__6.html",
+   "label": {
+    "de": "35. BImSchV, § 6: im Ausland zugelassene Fahrzeuge",
+    "en": "35th BImSchV, section 6: vehicles registered abroad"
+   }
+  },
+  "p3": {
+   "url": "https://www.gesetze-im-internet.de/bimschv_35/__3.html",
+   "label": {
+    "de": "35. BImSchV, § 3: Farbe und Anbringen der Plakette",
+    "en": "35th BImSchV, section 3: sticker colours and fitting"
+   }
+  },
+  "bimschg40": {
+   "url": "https://www.gesetze-im-internet.de/bimschg/__40.html",
+   "label": {
+    "de": "Bundes-Immissionsschutzgesetz, § 40 Verkehrsbeschränkungen",
+    "en": "Federal Immission Control Act, section 40: traffic restrictions"
+   }
+  },
+  "bgbl278": {
+   "url": "https://www.recht.bund.de/eli/bund/bgbl-1/2026/278",
+   "label": {
+    "de": "BGBl. 2026 I Nr. 278: Zweite Verordnung zur Änderung der 35. BImSchV (E-Kennzeichen)",
+    "en": "Federal Law Gazette 2026 I No. 278: second amendment of the 35th BImSchV (e-plates)"
+   }
+  },
+  "bmuv": {
+   "url": "https://www.bundesumweltministerium.de/themen/luft-laerm-mobilitaet/luft/umweltplakette-umweltzone",
+   "label": {
+    "de": "Bundesumweltministerium, Umweltplakette und Umweltzone: vereinfachte Zuordnungstabelle",
+    "en": "Federal Environment Ministry, environmental sticker and zones: simplified table"
+   }
+  },
+  "bkatv": {
+   "url": "https://www.gesetze-im-internet.de/bkatv_2013/anlage.html",
+   "label": {
+    "de": "Bußgeldkatalog-Verordnung, Anlage, Nr. 153 (Zeichen 270.1, 270.2)",
+    "en": "Fine Catalogue Ordinance, annex, no. 153 (signs 270.1, 270.2)"
+   }
+  },
+  "fev13": {
+   "url": "https://www.gesetze-im-internet.de/fev_2010/anlage_13.html",
+   "label": {
+    "de": "Fahrerlaubnis-Verordnung, Anlage 13: Punktebewertung",
+    "en": "Driving Licence Ordinance, annex 13: penalty points table"
+   }
+  },
+  "stvoAnl2": {
+   "url": "https://www.gesetze-im-internet.de/stvo_2013/anlage_2.html",
+   "label": {
+    "de": "StVO, Anlage 2: Zeichen 270.1 und 270.2",
+    "en": "Road Traffic Regulations, annex 2: signs 270.1 and 270.2"
+   }
+  },
+  "fzv2": {
+   "url": "https://www.gesetze-im-internet.de/fzv_2023/__2.html",
+   "label": {
+    "de": "Fahrzeug-Zulassungsverordnung, § 2 Nr. 22: Begriff des Oldtimers",
+    "en": "Vehicle Registration Ordinance, section 2 no. 22: definition of a classic car"
+   }
+  },
+  "fzv10": {
+   "url": "https://www.gesetze-im-internet.de/fzv_2023/__10.html",
+   "label": {
+    "de": "Fahrzeug-Zulassungsverordnung, § 10 Abs. 1: Oldtimerkennzeichen (H)",
+    "en": "Vehicle Registration Ordinance, section 10(1): classic-car plate (H)"
+   }
+  },
+  "fzv11": {
+   "url": "https://www.gesetze-im-internet.de/fzv_2023/__11.html",
+   "label": {
+    "de": "Fahrzeug-Zulassungsverordnung, § 11: Kennzeichnung elektrisch betriebener Fahrzeuge (E-Kennzeichen, E-Plakette)",
+    "en": "Vehicle Registration Ordinance, section 11: marking of electric vehicles (e-plate, e-badge)"
+   }
+  },
+  "emog": {
+   "url": "https://www.gesetze-im-internet.de/emog/__2.html",
+   "label": {
+    "de": "Elektromobilitätsgesetz, § 2: elektrisch betriebene Fahrzeuge",
+    "en": "Electromobility Act, section 2: electrically powered vehicles"
+   }
+  },
+  "eu2881": {
+   "url": "https://eur-lex.europa.eu/eli/dir/2024/2881/oj",
+   "label": {
+    "de": "Richtlinie (EU) 2024/2881 über Luftqualität (Grenzwerte ab 2030)",
+    "en": "Directive (EU) 2024/2881 on ambient air quality (limits from 2030)"
+   }
+  },
+  "stuttgartDiesel": {
+   "url": "https://www.stuttgart.de/leben/mobilitaet/dieselverkehrsverbot/dieselverkehrsverbot",
+   "label": {
+    "de": "Landeshauptstadt Stuttgart, Diesel-Verkehrsverbot (Stand 24.02.2026)",
+    "en": "City of Stuttgart, diesel driving ban (as of 24 Feb 2026)"
+   }
+  },
+  "stuttgartPlakette": {
+   "url": "https://www.stuttgart.de/organigramm/leistungen/umweltplakette-beantragen",
+   "label": {
+    "de": "Landeshauptstadt Stuttgart, Umweltplakette beantragen",
+    "en": "City of Stuttgart, applying for the sticker"
+   }
+  },
+  "muenchen": {
+   "url": "https://stadt.muenchen.de/infos/umweltzone-muenchen.html",
+   "label": {
+    "de": "Landeshauptstadt München, Umweltzone München",
+    "en": "City of Munich, Munich low-emission zone"
+   }
+  },
+  "berlin": {
+   "url": "https://www.berlin.de/sen/uvk/umwelt/luft/luftreinhaltung/umweltzone/",
+   "label": {
+    "de": "Senatsverwaltung Berlin, Umweltzone",
+    "en": "Berlin Senate Department, low-emission zone"
+   }
+  },
+  "berlinGebiet": {
+   "url": "https://www.berlin.de/sen/uvk/umwelt/luft/luftreinhaltung/umweltzone/gebiet/",
+   "label": {
+    "de": "Senatsverwaltung Berlin, Umweltzone: Gebiet",
+    "en": "Berlin Senate Department, low-emission zone: area"
+   }
+  },
+  "koeln": {
+   "url": "https://www.stadt-koeln.de/leben-in-koeln/umwelt-tiere/luft-umweltzone/",
+   "label": {
+    "de": "Stadt Köln, Luft und Umweltzone",
+    "en": "City of Cologne, air and low-emission zone"
+   }
+  },
+  "leipzig": {
+   "url": "https://www.leipzig.de/leben-in-leipzig/natur-und-umwelt/umwelt-und-naturschutz/luftreinhaltung/umweltzone",
+   "label": {
+    "de": "Stadt Leipzig, Umweltzone",
+    "en": "City of Leipzig, low-emission zone"
+   }
+  },
+  "mainz": {
+   "url": "https://www.mainz.de/angebote-entdecken/umwelt--und-naturschutz/immissionsschutz/luft/umweltzone",
+   "label": {
+    "de": "Landeshauptstadt Mainz, Umweltzone (Aufhebung)",
+    "en": "City of Mainz, low-emission zone (lifted)"
+   }
+  },
+  "hannoverLrp": {
+   "url": "https://www.hannover.de/content/download/928994/file/LRP_Hannover_2023-final.pdf",
+   "label": {
+    "de": "Landeshauptstadt Hannover, Luftreinhalteplan 2023 (31.01.2024)",
+    "en": "City of Hanover, clean-air plan 2023 (31 Jan 2024)"
+   }
+  },
+  "augsburg": {
+   "url": "https://www.augsburg.de/umwelt-soziales/umwelt/luft-laerm-strahlen/umweltzone/",
+   "label": {
+    "de": "Stadt Augsburg, Umweltzone",
+    "en": "City of Augsburg, low-emission zone"
+   }
+  },
+  "bremen": {
+   "url": "https://umwelt.bremen.de/umwelt/luft/luftreinhalteplanung/umweltzone-bremen-24570",
+   "label": {
+    "de": "Senatorin für Umwelt Bremen, Umweltzone Bremen",
+    "en": "Bremen Senate, Bremen low-emission zone"
+   }
+  },
+  "bwVm": {
+   "url": "https://vm.baden-wuerttemberg.de/de/mensch-umwelt/luftreinhaltung/umweltzonen-und-lkw-durchfahrtsverbote/",
+   "label": {
+    "de": "Verkehrsministerium Baden-Württemberg, Umweltzonen",
+    "en": "Baden-Württemberg Transport Ministry, low-emission zones"
+   }
+  },
+  "byStmuv": {
+   "url": "https://www.stmuv.bayern.de/themen/luftreinhaltung/massnahmen/39bimschv/umweltzonen.htm",
+   "label": {
+    "de": "Bayerisches Umweltministerium, Umweltzonen in Bayern",
+    "en": "Bavarian Environment Ministry, low-emission zones in Bavaria"
+   }
+  },
+  "nrw": {
+   "url": "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen/",
+   "label": {
+    "de": "Umweltministerium Nordrhein-Westfalen, Umweltzonen",
+    "en": "North Rhine-Westphalia Environment Ministry, low-emission zones"
+   }
+  },
+  "hessen": {
+   "url": "https://landwirtschaft.hessen.de/Luft-Laerm-Licht/Luftreinhaltung/Umweltzonen",
+   "label": {
+    "de": "Hessisches Umweltministerium, Umweltzonen",
+    "en": "Hesse Environment Ministry, low-emission zones"
+   }
+  },
+  "dortmund": {
+   "url": "https://www.dortmund.de/themen/umwelt-nachhaltigkeit-und-klimaschutz/luft-und-luftreinhaltung/umweltzone/",
+   "label": {
+    "de": "Stadt Dortmund, Umweltzone",
+    "en": "City of Dortmund, low-emission zone"
+   }
+  },
+  "duesseldorf": {
+   "url": "https://www.duesseldorf.de/kfz/feinstaub/001-umwelt",
+   "label": {
+    "de": "Landeshauptstadt Düsseldorf, Umweltzone",
+    "en": "City of Düsseldorf, low-emission zone"
+   }
+  },
+  "freiburgRp": {
+   "url": "https://rpf.baden-wuerttemberg.de/abt5/ref541/luftreinhaltung/region-freiburg/",
+   "label": {
+    "de": "Regierungspräsidium Freiburg, Luftreinhalteplan Freiburg (4. Fortschreibung 2025)",
+    "en": "Freiburg regional council, Freiburg clean-air plan (4th update 2025)"
+   }
+  },
+  "essen": {
+   "url": "https://www.essen.de/leben/umwelt/luft/umweltzone.de.html",
+   "label": {
+    "de": "Stadt Essen, Umweltzone Ruhrgebiet",
+    "en": "City of Essen, Ruhr low-emission zone"
+   }
+  },
+  "brms": {
+   "url": "https://www.brms.nrw.de/themen/umwelt-und-natur/immissionsschutz/umweltzonen-und-luftreinhalteplaene",
+   "label": {
+    "de": "Bezirksregierung Münster, Umweltzonen und Luftreinhaltepläne",
+    "en": "Münster district government, low-emission zones and clean-air plans"
+   }
+  },
+  "wiesbaden": {
+   "url": "https://www.wiesbaden.de/leben-wohnen/umwelt-natur-klima/luftqualitaet/umweltzone",
+   "label": {
+    "de": "Landeshauptstadt Wiesbaden, Umweltzone",
+    "en": "City of Wiesbaden, low-emission zone"
+   }
+  },
+  "rpStuttgart": {
+   "url": "https://rps.baden-wuerttemberg.de/abt5/ref541/seiten/luftreinhalteplaene/",
+   "label": {
+    "de": "Regierungspräsidium Stuttgart, Luftreinhaltepläne",
+    "en": "Stuttgart regional council, clean-air plans"
+   }
+  },
+  "rpKarlsruhe": {
+   "url": "https://rpk.baden-wuerttemberg.de/abt5/referat-541-industrie-schwerpunkt-luftreinhaltung/luftreinhalteplanung/",
+   "label": {
+    "de": "Regierungspräsidium Karlsruhe, Luftreinhalteplanung",
+    "en": "Karlsruhe regional council, clean-air planning"
+   }
+  },
+  "regensburg": {
+   "url": "https://www.regensburg.de/leben/umwelt/luft/umweltzone-in-regensburg",
+   "label": {
+    "de": "Stadt Regensburg, Umweltzone",
+    "en": "City of Regensburg, low-emission zone"
+   }
+  },
+  "aachen": {
+   "url": "https://www.aachen.de/in-aachen-leben/klima-umwelt/luftqualitaet/umweltzone/",
+   "label": {
+    "de": "Stadt Aachen, Umweltzone",
+    "en": "City of Aachen, low-emission zone"
+   }
+  },
+  "fzv43": {
+   "url": "https://www.gesetze-im-internet.de/fzv_2023/__43.html",
+   "label": {
+    "de": "Fahrzeug-Zulassungsverordnung, § 43: rotes Oldtimerkennzeichen (07)",
+    "en": "Vehicle Registration Ordinance, section 43: red classic plate (07)"
+   }
+  }
+ }
+}

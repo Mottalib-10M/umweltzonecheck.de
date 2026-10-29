@@ -1,0 +1,38 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import LegalIdentity from '../LegalIdentity.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route, type Locale } from '../../i18n/routes';
+import { contactPageSchema } from '../../lib/seo';
+import { helpers } from '../../lib/helpers';
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const H = helpers(lang); const T = H.T;
+const name = SITE_NAMES[lang];
+const crumb = T('Kontakt', 'Contact');
+const description = T(
+  `Schreiben Sie dem Herausgeber von ${name}: eine aufgehobene Zone melden, auf eine neue Allgemeinverfügung hinweisen, eine Zuordnung infrage stellen oder die Prüfung einbinden.`,
+  `Write to the publisher of ${name}: report a lifted zone, point to a new general order, question a group assignment or embed the zone checker on your own site.`);
+const mail = `mailto:${CONTACT_EMAIL}`;
+---
+<PageLayout title={`${crumb} – ${name}`} description={description} lang={lang} noindex={true} jsonLd={[contactPageSchema({ name: crumb, description, path: route('contact', lang), lang })]} breadcrumbs={[{ label: crumb }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    <h1>{crumb}</h1>
+    {lang === 'de' && <>
+      <p>Eine Adresse, regelmäßig gelesen: <a href={mail}>{CONTACT_EMAIL}</a>. Kein Telefon, kein Rückruf, kein Verkauf.</p>
+      <h2>Einen Fehler melden</h2><p>Nennen Sie die Stadt, die Seite der Stadt oder des Landes, die etwas anderes sagt, und wenn möglich das Datum der Allgemeinverfügung. Ein bestätigter Fehler wird korrigiert und als Test aufgenommen, wie es die <a href={route('editorial', lang)}>redaktionellen Grundsätze</a> vorsehen.</p>
+      <h2>Was wir nicht können</h2><p>Wir geben keine Plaketten aus, erteilen keine Ausnahmegenehmigungen und bearbeiten keine Bußgeldbescheide: dafür sind die Zulassungsstellen, die Städte und die Bußgeldstellen zuständig (siehe <a href={route('method', lang)}>Methode</a>).</p>
+      <h2>Die Prüfung einbinden</h2><p>Hotels, Messen, Vereine und Redaktionen können die Prüfung „Darf ich hinein?“ kostenlos einbinden: der Code steht auf der Seite <a href={route('widget', lang)}>Prüfung einbinden</a>.</p>
+      <h2>Herausgeber</h2>
+    </>}
+    {lang === 'en' && <>
+      <p>One address, read regularly: <a href={mail}>{CONTACT_EMAIL}</a>. No phone, no call-backs, nothing for sale.</p>
+      <h2>Report an error</h2><p>Name the city, the city or state page that says something different and, if you can, the date of the general order. A confirmed error is corrected and becomes a test, as the <a href={route('editorial', lang)}>editorial policy</a> sets out.</p>
+      <h2>What we cannot do</h2><p>We issue no stickers, grant no exemption permits and handle no fine notices: registration offices, cities and fine offices do that (see the <a href={route('method', lang)}>method</a>).</p>
+      <h2>Embed the checker</h2><p>Hotels, trade fairs, clubs and newsrooms can embed the “May I drive in?” check for free; the code is on the <a href={route('widget', lang)}>Embed the checker</a> page.</p>
+      <h2>Publisher</h2>
+    </>}
+    <LegalIdentity lang={lang} />
+    <p>{T(`${AUTHOR_NAME} ist für den Inhalt von ${name} verantwortlich; die vollständigen Angaben stehen im`, `${AUTHOR_NAME} is responsible for the content of ${name}; full details are in the`)} <a href={route('terms', lang)}>{T('Impressum', 'legal notice')}</a>. {T('Seite geprüft am', 'Page reviewed on')} {H.date(LAST_UPDATED)}.</p>
+  </div>
+</PageLayout>

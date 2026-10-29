@@ -1,0 +1,33 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { SITE_URL } from '../../data/site-config';
+import { route, type Locale } from '../../i18n/routes';
+import { breadcrumbSchema } from '../../lib/seo';
+import { helpers } from '../../lib/helpers';
+import { EMBED } from '../../lib/embed';
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const H = helpers(lang); const T = H.T;
+const e = EMBED[lang];
+const code = `<iframe src="${SITE_URL}/embed/${e.slug}/" title="${e.title}" width="100%" height="900" style="border:0;max-width:1100px" loading="lazy"></iframe>`;
+const title = T('Umweltzonen-Prüfung auf Ihrer Seite einbinden', 'Embed the German low-emission zone check on your site');
+const description = T(
+  'Binden Sie die Prüfung „Darf mein Auto in diese Umweltzone?“ kostenlos als iframe ein: ein Code zum Kopieren, ohne Anmeldung, ohne Cookie, mit jeder neuen Zonenliste aktuell.',
+  'Embed the “may my car enter this low-emission zone?” check free of charge as an iframe: one code to copy, no sign-up, no cookie, updated with every new zone list.');
+const crumb = T('Prüfung einbinden', 'Embed the checker');
+---
+<PageLayout title={title} description={description} lang={lang} noindex={true} jsonLd={[breadcrumbSchema([{ name: T('Startseite', 'Home'), path: route('home', lang) }, { name: crumb, path: route('widget', lang) }])]} breadcrumbs={[{ label: crumb }]} showAuthor={false}>
+  <header class="mb-6">
+    <h1 class="text-3xl font-bold text-navy-900 md:text-4xl">{crumb}</h1>
+    <p class="mt-3 text-lg text-navy-700">{T('Ein Code zum Kopieren, ohne Anmeldung und ohne Kosten. Hotels, Messen, Vereine und Redaktionen bauen ihn in einer Minute ein.', 'One code to copy, no sign-up and no fee. Hotels, trade fairs, clubs and newsrooms set it up in a minute.')}</p>
+  </header>
+  <div class="prose prose-slate max-w-none">
+    <pre class="overflow-x-auto rounded-lg bg-navy-900 p-4 text-sm text-white"><code>{code}</code></pre>
+    <p>{T('Bedingungen: der Link unter der Prüfung und der Hinweis „unabhängige, nichtstaatliche Seite“ bleiben sichtbar, der Inhalt wird nicht verändert, er wird ohne Gewähr bereitgestellt. Wenn das Umweltbundesamt seine Liste ändert, ist Ihre Seite ohne Ihr Zutun auf dem neuen Stand.', 'Terms: the link under the check and the “independent, non-governmental site” notice stay visible, the content is not altered, and it is provided without warranty. When the Federal Environment Agency changes its list, your page is up to date without you doing anything.')}</p>
+    <p>{T('Andere Sprache:', 'Other language:')} {Object.values(EMBED).filter((x) => x.slug !== e.slug).map((x) => <code>{`${SITE_URL}/embed/${x.slug}/`}</code>)}</p>
+    <p>{T('Was Ihre Besucher eingeben, bleibt in ihrem Browser, und der eingebettete Rahmen setzt kein Cookie. Fragen über die', 'What your visitors enter stays in their browser and the embedded frame sets no cookie. Questions via the')} <a href={route('contact', lang)}>{T('Kontaktseite', 'contact page')}</a>.</p>
+  </div>
+  <div class="mt-8 overflow-hidden rounded-xl border border-navy-200">
+    <iframe src={`/embed/${e.slug}/`} title={e.title} width="100%" height="900" style="border:0" loading="lazy"></iframe>
+  </div>
+</PageLayout>

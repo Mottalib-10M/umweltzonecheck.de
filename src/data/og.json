@@ -1,0 +1,20 @@
+{
+ "accent": "#166534",
+ "symbol": "UZ",
+ "variants": [
+  {
+   "file": "og-de.png",
+   "title": "Umweltzonen 2026\nwelche gelten noch?",
+   "subtitle": "35 aktive und 23 aufgehobene Zonen · Plakette nach 35. BImSchV",
+   "badge": "Jede Zone mit amtlicher Quelle, Stand 29. Oktober 2026",
+   "brand": "DE Umweltzone"
+  },
+  {
+   "file": "og-en.png",
+   "title": "German low-emission zones\n2026: which still apply?",
+   "subtitle": "35 active, 23 lifted · which sticker your car gets",
+   "badge": "Every zone with its official source, checked 29 October 2026",
+   "brand": "DE Umweltzone"
+  }
+ ]
+}

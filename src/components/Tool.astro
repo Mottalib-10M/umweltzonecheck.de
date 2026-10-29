@@ -1,0 +1,15 @@
+---
+/** Rechner einer Seite nach `page.tool` (components/outils/Tools.tsx). */
+import { PlaketteCalc, StadtCalc, RouteCalc, ListeTool, BussgeldCalc, AusnahmeCalc } from './outils/Tools';
+import type { Tool as ToolName } from '../lib/guide-types';
+import type { Locale } from '../i18n/routes';
+interface Props { tool: ToolName; lang: Locale; id: string; refDay: string; methodHref?: string; zone?: string; land?: string; preset?: Record<string, string> }
+const { tool, lang, id, refDay, methodHref, zone, land, preset = {} } = Astro.props;
+const orte = preset.route ? preset.route.split(',') : undefined;
+---
+{tool === 'plakette' && <PlaketteCalc client:load lang={lang} id={id} methodHref={methodHref} preset={preset} />}
+{tool === 'stadt' && <StadtCalc client:load lang={lang} id={id} refDay={refDay} methodHref={methodHref} ort={zone ?? 'berlin'} preset={preset} />}
+{tool === 'route' && <RouteCalc client:load lang={lang} id={id} refDay={refDay} methodHref={methodHref} orte={orte} />}
+{tool === 'liste' && <ListeTool client:load lang={lang} id={id} methodHref={methodHref} land={land ?? ''} status={preset.status ?? 'alle'} />}
+{tool === 'bussgeld' && <BussgeldCalc client:load lang={lang} id={id} refDay={refDay} methodHref={methodHref} ort={zone ?? 'berlin'} />}
+{tool === 'ausnahme' && <AusnahmeCalc client:load lang={lang} id={id} refDay={refDay} methodHref={methodHref} fall={preset.fall ?? 'oldtimerH'} />}

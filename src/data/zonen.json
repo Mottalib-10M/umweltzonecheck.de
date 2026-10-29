@@ -1,0 +1,1188 @@
+{
+ "quelle": "Umweltbundesamt, Umweltzonen in Deutschland (gis.uba.de), letzte inhaltliche Änderung 26.08.2026",
+ "gelesen": "2026-10-29",
+ "stand": "2026-08-26",
+ "zonen": [
+  {
+   "id": "balingen",
+   "name": {
+    "de": "Balingen",
+    "en": "Balingen"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2017-04-01",
+   "stufe2": "2017-04-01",
+   "stufe3": "2017-04-01",
+   "aufhebung": "2020-11-01",
+   "orte": [
+    "Balingen"
+   ],
+   "quellen": [
+    "https://rpt.baden-wuerttemberg.de/abt5/ref541/luftreinhalteplaene/seiten/luftreinhaltung-balingen/"
+   ]
+  },
+  {
+   "id": "freiburg",
+   "name": {
+    "de": "Freiburg",
+    "en": "Freiburg"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2010-01-01",
+   "stufe2": "2012-01-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": "2025-04-22",
+   "orte": [
+    "Freiburg"
+   ],
+   "quellen": [
+    "https://rpf.baden-wuerttemberg.de/abt5/ref541/luftreinhaltung/region-freiburg/"
+   ]
+  },
+  {
+   "id": "heidelberg",
+   "name": {
+    "de": "Heidelberg",
+    "en": "Heidelberg"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2010-01-01",
+   "stufe2": "2012-01-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": "2023-03-01",
+   "orte": [
+    "Heidelberg"
+   ],
+   "quellen": [
+    "https://rpk.baden-wuerttemberg.de/abt5/referat-541-industrie-schwerpunkt-luftreinhaltung/luftreinhalteplanung/"
+   ]
+  },
+  {
+   "id": "heidenheim",
+   "name": {
+    "de": "Heidenheim",
+    "en": "Heidenheim"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2012-01-01",
+   "stufe2": "2012-01-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": "2024-01-01",
+   "orte": [
+    "Heidenheim"
+   ],
+   "quellen": [
+    "https://rps.baden-wuerttemberg.de/abt5/ref541/seiten/luftreinhalteplaene/"
+   ]
+  },
+  {
+   "id": "heilbronn",
+   "name": {
+    "de": "Heilbronn",
+    "en": "Heilbronn"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2009-01-01",
+   "stufe2": "2012-01-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": "2024-01-01",
+   "orte": [
+    "Heilbronn"
+   ],
+   "quellen": [
+    "https://rps.baden-wuerttemberg.de/abt5/ref541/seiten/luftreinhalteplaene/"
+   ]
+  },
+  {
+   "id": "herrenberg",
+   "name": {
+    "de": "Herrenberg",
+    "en": "Herrenberg"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2009-01-01",
+   "stufe2": "2012-01-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": "2024-01-01",
+   "orte": [
+    "Herrenberg"
+   ],
+   "quellen": [
+    "https://rps.baden-wuerttemberg.de/abt5/ref541/seiten/luftreinhalteplaene/"
+   ]
+  },
+  {
+   "id": "ilsfeld",
+   "name": {
+    "de": "Ilsfeld",
+    "en": "Ilsfeld"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2008-03-01",
+   "stufe2": "2012-01-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": "2023-05-01",
+   "orte": [
+    "Ilsfeld"
+   ],
+   "quellen": [
+    "https://rps.baden-wuerttemberg.de/abt5/ref541/seiten/luftreinhalteplaene/"
+   ]
+  },
+  {
+   "id": "karlsruhe",
+   "name": {
+    "de": "Karlsruhe",
+    "en": "Karlsruhe"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2009-01-01",
+   "stufe2": "2012-01-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": "2023-03-01",
+   "orte": [
+    "Karlsruhe"
+   ],
+   "quellen": [
+    "https://rpk.baden-wuerttemberg.de/abt5/referat-541-industrie-schwerpunkt-luftreinhaltung/luftreinhalteplanung/"
+   ]
+  },
+  {
+   "id": "leonberg",
+   "name": {
+    "de": "Leonberg / Hemmingen und Umgebung",
+    "en": "Leonberg / Hemmingen and surroundings"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2013-12-02",
+   "stufe2": "2013-12-02",
+   "stufe3": "2013-12-02",
+   "aufhebung": "2024-01-01",
+   "orte": [
+    "Ditzingen",
+    "Gerlingen",
+    "Hardthof",
+    "Hemmingen",
+    "Korntal-Münchingen",
+    "Leonberg",
+    "Schönbühlhof",
+    "Schwieberdingen"
+   ],
+   "quellen": [
+    "https://rps.baden-wuerttemberg.de/abt5/ref541/seiten/luftreinhalteplaene/"
+   ]
+  },
+  {
+   "id": "ludwigsburg",
+   "name": {
+    "de": "Ludwigsburg und Umgebung",
+    "en": "Ludwigsburg and surroundings"
+   },
+   "land": "BW",
+   "status": "aktiv",
+   "stufe1": "2013-01-01",
+   "stufe2": "2013-01-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": null,
+   "orte": [
+    "Asperg",
+    "Bietigheim-Bissingen",
+    "Freiberg",
+    "Ingersheim",
+    "Kornwestheim",
+    "Ludwigsburg",
+    "Markgröningen",
+    "Möglingen",
+    "Pleidelsheim",
+    "Remseck am Neckar",
+    "Tamm"
+   ],
+   "quellen": [
+    "https://rps.baden-wuerttemberg.de/abt5/ref541/seiten/luftreinhalteplaene/",
+    "https://vm.baden-wuerttemberg.de/de/mensch-umwelt/luftreinhaltung/umweltzonen-und-lkw-durchfahrtsverbote/"
+   ]
+  },
+  {
+   "id": "mannheim",
+   "name": {
+    "de": "Mannheim",
+    "en": "Mannheim"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2008-03-01",
+   "stufe2": "2012-01-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": "2024-08-01",
+   "orte": [
+    "Mannheim"
+   ],
+   "quellen": [
+    "https://rpk.baden-wuerttemberg.de/abt5/referat-541-industrie-schwerpunkt-luftreinhaltung/luftreinhalteplanung/"
+   ]
+  },
+  {
+   "id": "muehlacker",
+   "name": {
+    "de": "Mühlacker",
+    "en": "Mühlacker"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2009-01-01",
+   "stufe2": "2012-01-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": "2024-08-01",
+   "orte": [
+    "Mühlacker"
+   ],
+   "quellen": [
+    "https://rpk.baden-wuerttemberg.de/abt5/referat-541-industrie-schwerpunkt-luftreinhaltung/luftreinhalteplanung/"
+   ]
+  },
+  {
+   "id": "pfinztal",
+   "name": {
+    "de": "Pfinztal",
+    "en": "Pfinztal"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2010-01-01",
+   "stufe2": "2012-01-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": "2023-03-01",
+   "orte": [
+    "Pfinztal"
+   ],
+   "quellen": [
+    "https://rpk.baden-wuerttemberg.de/abt5/referat-541-industrie-schwerpunkt-luftreinhaltung/luftreinhalteplanung/"
+   ]
+  },
+  {
+   "id": "pforzheim",
+   "name": {
+    "de": "Pforzheim",
+    "en": "Pforzheim"
+   },
+   "land": "BW",
+   "status": "aktiv",
+   "stufe1": "2009-01-01",
+   "stufe2": "2012-01-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": null,
+   "orte": [
+    "Pforzheim"
+   ],
+   "quellen": [
+    "https://rpk.baden-wuerttemberg.de/abt5/referat-541-industrie-schwerpunkt-luftreinhaltung/luftreinhalteplanung/",
+    "https://vm.baden-wuerttemberg.de/de/mensch-umwelt/luftreinhaltung/umweltzonen-und-lkw-durchfahrtsverbote/"
+   ]
+  },
+  {
+   "id": "reutlingen",
+   "name": {
+    "de": "Reutlingen",
+    "en": "Reutlingen"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2008-03-01",
+   "stufe2": "2012-01-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": "2024-06-04",
+   "orte": [
+    "Reutlingen"
+   ],
+   "quellen": [
+    "https://rpt.baden-wuerttemberg.de/abt5/ref541/luftreinhalteplaene/seiten/luftreinhaltung-reutlingen/"
+   ]
+  },
+  {
+   "id": "schramberg",
+   "name": {
+    "de": "Schramberg",
+    "en": "Schramberg"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2013-07-01",
+   "stufe2": "2013-07-01",
+   "stufe3": "2015-01-01",
+   "aufhebung": "2023-03-01",
+   "orte": [
+    "Schramberg"
+   ],
+   "quellen": [
+    "https://rpf.baden-wuerttemberg.de/abt5/ref541/luftreinhaltung/region-schramberg/"
+   ]
+  },
+  {
+   "id": "schwaebisch-gmuend",
+   "name": {
+    "de": "Schwäbisch Gmünd",
+    "en": "Schwäbisch Gmünd"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2008-03-01",
+   "stufe2": "2012-01-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": "2023-05-01",
+   "orte": [
+    "Schwäbisch Gmünd"
+   ],
+   "quellen": [
+    "https://rps.baden-wuerttemberg.de/abt5/ref541/seiten/luftreinhalteplaene/"
+   ]
+  },
+  {
+   "id": "stuttgart",
+   "name": {
+    "de": "Stuttgart",
+    "en": "Stuttgart"
+   },
+   "land": "BW",
+   "status": "aktiv",
+   "stufe1": "2008-03-01",
+   "stufe2": "2010-07-01",
+   "stufe3": "2012-01-01",
+   "aufhebung": null,
+   "orte": [
+    "Stuttgart"
+   ],
+   "quellen": [
+    "https://www.stuttgart.de/leben/mobilitaet/dieselverkehrsverbot/dieselverkehrsverbot",
+    "https://vm.baden-wuerttemberg.de/de/mensch-umwelt/luftreinhaltung/umweltzonen-und-lkw-durchfahrtsverbote/"
+   ],
+   "diesel": [
+    {
+     "ab": "2019-01-01",
+     "bisNorm": 4,
+     "gebiet": "ganz",
+     "pkwBenzinBis": null,
+     "ausnahmeLiefer": true
+    },
+    {
+     "ab": "2020-07-01",
+     "bisNorm": 5,
+     "gebiet": "kleine",
+     "pkwBenzinBis": null,
+     "ausnahmeLiefer": true
+    }
+   ]
+  },
+  {
+   "id": "tuebingen",
+   "name": {
+    "de": "Tübingen",
+    "en": "Tübingen"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2008-03-01",
+   "stufe2": "2012-01-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": "2024-06-04",
+   "orte": [
+    "Tübingen"
+   ],
+   "quellen": [
+    "https://rpt.baden-wuerttemberg.de/abt5/ref541/luftreinhalteplaene/seiten/luftreinhaltung-tuebingen/"
+   ]
+  },
+  {
+   "id": "ulm",
+   "name": {
+    "de": "Ulm",
+    "en": "Ulm"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2009-01-01",
+   "stufe2": "2012-01-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": "2024-06-04",
+   "orte": [
+    "Ulm"
+   ],
+   "quellen": [
+    "https://rpt.baden-wuerttemberg.de/abt5/ref541/luftreinhalteplaene/seiten/luftreinhaltung-ulm/"
+   ]
+  },
+  {
+   "id": "urbach",
+   "name": {
+    "de": "Urbach",
+    "en": "Urbach"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2012-01-01",
+   "stufe2": "2012-01-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": "2023-05-01",
+   "orte": [
+    "Urbach"
+   ],
+   "quellen": [
+    "https://rps.baden-wuerttemberg.de/abt5/ref541/seiten/luftreinhalteplaene/"
+   ]
+  },
+  {
+   "id": "wendlingen",
+   "name": {
+    "de": "Wendlingen",
+    "en": "Wendlingen"
+   },
+   "land": "BW",
+   "status": "aufgehoben",
+   "stufe1": "2013-04-02",
+   "stufe2": "2013-04-02",
+   "stufe3": "2013-04-02",
+   "aufhebung": "2023-05-01",
+   "orte": [
+    "Wendlingen"
+   ],
+   "quellen": [
+    "https://rps.baden-wuerttemberg.de/abt5/ref541/seiten/luftreinhalteplaene/"
+   ]
+  },
+  {
+   "id": "augsburg",
+   "name": {
+    "de": "Augsburg",
+    "en": "Augsburg"
+   },
+   "land": "BY",
+   "status": "aktiv",
+   "stufe1": "2009-07-01",
+   "stufe2": "2011-01-01",
+   "stufe3": "2016-06-01",
+   "aufhebung": null,
+   "orte": [
+    "Augsburg"
+   ],
+   "quellen": [
+    "https://www.augsburg.de/umwelt-soziales/umwelt/luft-laerm-strahlen/umweltzone/",
+    "https://www.stmuv.bayern.de/themen/luftreinhaltung/massnahmen/39bimschv/umweltzonen.htm"
+   ]
+  },
+  {
+   "id": "muenchen",
+   "name": {
+    "de": "München",
+    "en": "Munich"
+   },
+   "land": "BY",
+   "status": "aktiv",
+   "stufe1": "2008-10-01",
+   "stufe2": "2010-10-01",
+   "stufe3": "2012-10-01",
+   "aufhebung": null,
+   "orte": [
+    "München"
+   ],
+   "quellen": [
+    "https://stadt.muenchen.de/infos/umweltzone-muenchen.html",
+    "https://www.stmuv.bayern.de/themen/luftreinhaltung/massnahmen/39bimschv/umweltzonen.htm"
+   ],
+   "diesel": [
+    {
+     "ab": "2023-02-01",
+     "bisNorm": 4,
+     "gebiet": "ganz",
+     "pkwBenzinBis": null,
+     "ausnahmeLiefer": true
+    }
+   ]
+  },
+  {
+   "id": "neu-ulm",
+   "name": {
+    "de": "Neu-Ulm",
+    "en": "Neu-Ulm"
+   },
+   "land": "BY",
+   "status": "aufgehoben",
+   "stufe1": "2009-11-01",
+   "stufe2": "2012-11-05",
+   "stufe3": null,
+   "aufhebung": "2024-06-04",
+   "orte": [
+    "Neu-Ulm"
+   ],
+   "quellen": [
+    "https://nu.neu-ulm.de/buerger-service/leben-in-neu-ulm/umwelt-natur/luftreinhaltung"
+   ]
+  },
+  {
+   "id": "regensburg",
+   "name": {
+    "de": "Regensburg",
+    "en": "Regensburg"
+   },
+   "land": "BY",
+   "status": "aktiv",
+   "stufe1": "2018-01-15",
+   "stufe2": "2018-01-15",
+   "stufe3": "2018-01-15",
+   "aufhebung": null,
+   "orte": [
+    "Regensburg"
+   ],
+   "quellen": [
+    "https://www.regensburg.de/leben/umwelt/luft/umweltzone-in-regensburg",
+    "https://www.stmuv.bayern.de/themen/luftreinhaltung/massnahmen/39bimschv/umweltzonen.htm"
+   ]
+  },
+  {
+   "id": "berlin",
+   "name": {
+    "de": "Berlin",
+    "en": "Berlin"
+   },
+   "land": "BE",
+   "status": "aktiv",
+   "stufe1": "2008-01-01",
+   "stufe2": "2010-01-01",
+   "stufe3": "2010-01-01",
+   "aufhebung": null,
+   "orte": [
+    "Berlin"
+   ],
+   "quellen": [
+    "https://www.berlin.de/sen/uvk/umwelt/luft/luftreinhaltung/umweltzone/gebiet/"
+   ]
+  },
+  {
+   "id": "bremen",
+   "name": {
+    "de": "Bremen",
+    "en": "Bremen"
+   },
+   "land": "HB",
+   "status": "aktiv",
+   "stufe1": "2009-01-01",
+   "stufe2": "2010-01-01",
+   "stufe3": "2011-07-01",
+   "aufhebung": null,
+   "orte": [
+    "Bremen"
+   ],
+   "quellen": [
+    "https://umwelt.bremen.de/umwelt/luft/luftreinhalteplanung/umweltzone-bremen-24570"
+   ]
+  },
+  {
+   "id": "darmstadt",
+   "name": {
+    "de": "Darmstadt",
+    "en": "Darmstadt"
+   },
+   "land": "HE",
+   "status": "aktiv",
+   "stufe1": "2015-11-01",
+   "stufe2": "2015-11-01",
+   "stufe3": "2015-11-01",
+   "aufhebung": null,
+   "orte": [
+    "Darmstadt"
+   ],
+   "quellen": [
+    "https://landwirtschaft.hessen.de/Luft-Laerm-Licht/Luftreinhaltung/Umweltzonen"
+   ],
+   "diesel": [
+    {
+     "ab": "2019-06-01",
+     "bisNorm": 5,
+     "gebiet": "strecke",
+     "pkwBenzinBis": 2,
+     "ausnahmeLiefer": false
+    }
+   ]
+  },
+  {
+   "id": "frankfurt-am-main",
+   "name": {
+    "de": "Frankfurt am Main",
+    "en": "Frankfurt am Main"
+   },
+   "land": "HE",
+   "status": "aktiv",
+   "stufe1": "2008-10-01",
+   "stufe2": "2010-01-01",
+   "stufe3": "2012-01-01",
+   "aufhebung": null,
+   "orte": [
+    "Frankfurt am Main"
+   ],
+   "quellen": [
+    "https://landwirtschaft.hessen.de/Luft-Laerm-Licht/Luftreinhaltung/Umweltzonen"
+   ]
+  },
+  {
+   "id": "limburg-an-der-lahn",
+   "name": {
+    "de": "Limburg an der Lahn",
+    "en": "Limburg an der Lahn"
+   },
+   "land": "HE",
+   "status": "aktiv",
+   "stufe1": "2018-01-31",
+   "stufe2": "2018-01-31",
+   "stufe3": "2018-01-31",
+   "aufhebung": null,
+   "orte": [
+    "Limburg an der Lahn"
+   ],
+   "quellen": [
+    "https://www.limburg.de/Verkehr/Umweltzone"
+   ]
+  },
+  {
+   "id": "marburg",
+   "name": {
+    "de": "Marburg",
+    "en": "Marburg"
+   },
+   "land": "HE",
+   "status": "aktiv",
+   "stufe1": "2016-04-01",
+   "stufe2": "2016-04-01",
+   "stufe3": "2016-04-01",
+   "aufhebung": null,
+   "orte": [
+    "Marburg"
+   ],
+   "quellen": [
+    "https://www.marburg.de/leben-in-marburg/umwelt-und-klima/umwelt-und-nachhaltigkeit/umweltzone-marburg/"
+   ]
+  },
+  {
+   "id": "offenbach",
+   "name": {
+    "de": "Offenbach",
+    "en": "Offenbach"
+   },
+   "land": "HE",
+   "status": "aktiv",
+   "stufe1": "2015-01-01",
+   "stufe2": "2015-01-01",
+   "stufe3": "2015-01-01",
+   "aufhebung": null,
+   "orte": [
+    "Offenbach"
+   ],
+   "quellen": [
+    "https://landwirtschaft.hessen.de/Luft-Laerm-Licht/Luftreinhaltung/Umweltzonen"
+   ]
+  },
+  {
+   "id": "wiesbaden",
+   "name": {
+    "de": "Wiesbaden",
+    "en": "Wiesbaden"
+   },
+   "land": "HE",
+   "status": "aktiv",
+   "stufe1": "2013-02-01",
+   "stufe2": "2013-02-01",
+   "stufe3": "2013-02-01",
+   "aufhebung": null,
+   "orte": [
+    "Wiesbaden"
+   ],
+   "quellen": [
+    "https://www.wiesbaden.de/leben-wohnen/umwelt-natur-klima/luftqualitaet/umweltzone"
+   ]
+  },
+  {
+   "id": "hannover",
+   "name": {
+    "de": "Hannover",
+    "en": "Hanover"
+   },
+   "land": "NI",
+   "status": "aufgehoben",
+   "stufe1": "2008-01-01",
+   "stufe2": "2009-01-01",
+   "stufe3": "2010-01-01",
+   "aufhebung": "2024-02-22",
+   "orte": [
+    "Hannover"
+   ],
+   "quellen": [
+    "https://www.hannover.de/content/download/928994/file/LRP_Hannover_2023-final.pdf"
+   ]
+  },
+  {
+   "id": "osnabrueck",
+   "name": {
+    "de": "Osnabrück",
+    "en": "Osnabrück"
+   },
+   "land": "NI",
+   "status": "aktiv",
+   "stufe1": "2010-01-04",
+   "stufe2": "2011-01-03",
+   "stufe3": "2012-01-03",
+   "aufhebung": null,
+   "orte": [
+    "Osnabrück"
+   ],
+   "quellen": [
+    "https://nachhaltig.osnabrueck.de/de/ziele-aktivitaeten/luftguete/umweltzone/",
+    "https://www.umwelt.niedersachsen.de/startseite/themen/luftqualitat/luftschadstoffberechnungen_amp_luftreinhalteplane/luftreinhalteplane/luftreinhalteplaene-110862.html"
+   ]
+  },
+  {
+   "id": "aachen",
+   "name": {
+    "de": "Aachen",
+    "en": "Aachen"
+   },
+   "land": "NW",
+   "status": "aktiv",
+   "stufe1": "2016-02-01",
+   "stufe2": "2016-02-01",
+   "stufe3": "2016-02-01",
+   "aufhebung": null,
+   "orte": [
+    "Aachen"
+   ],
+   "quellen": [
+    "https://www.aachen.de/in-aachen-leben/klima-umwelt/luftqualitaet/umweltzone/",
+    "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen"
+   ]
+  },
+  {
+   "id": "bonn",
+   "name": {
+    "de": "Bonn",
+    "en": "Bonn"
+   },
+   "land": "NW",
+   "status": "aktiv",
+   "stufe1": "2010-01-01",
+   "stufe2": "2012-07-01",
+   "stufe3": "2014-07-01",
+   "aufhebung": null,
+   "orte": [
+    "Bonn"
+   ],
+   "quellen": [
+    "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen"
+   ]
+  },
+  {
+   "id": "dinslaken",
+   "name": {
+    "de": "Dinslaken",
+    "en": "Dinslaken"
+   },
+   "land": "NW",
+   "status": "aktiv",
+   "stufe1": "2011-07-01",
+   "stufe2": "2011-07-01",
+   "stufe3": "2012-10-01",
+   "aufhebung": null,
+   "orte": [
+    "Dinslaken"
+   ],
+   "quellen": [
+    "https://www.dinslaken.de/bauen-planen/natur-und-umweltschutz/luft/umweltzone",
+    "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen"
+   ]
+  },
+  {
+   "id": "duesseldorf",
+   "name": {
+    "de": "Düsseldorf",
+    "en": "Düsseldorf"
+   },
+   "land": "NW",
+   "status": "aktiv",
+   "stufe1": "2009-02-15",
+   "stufe2": "2011-03-01",
+   "stufe3": "2014-07-01",
+   "aufhebung": null,
+   "orte": [
+    "Düsseldorf"
+   ],
+   "quellen": [
+    "https://www.duesseldorf.de/kfz/feinstaub/001-umwelt",
+    "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen"
+   ]
+  },
+  {
+   "id": "eschweiler",
+   "name": {
+    "de": "Eschweiler",
+    "en": "Eschweiler"
+   },
+   "land": "NW",
+   "status": "aktiv",
+   "stufe1": "2016-06-01",
+   "stufe2": "2016-06-01",
+   "stufe3": "2016-06-01",
+   "aufhebung": null,
+   "orte": [
+    "Eschweiler"
+   ],
+   "quellen": [
+    "https://www.eschweiler.de/leben-wohnen/natur-umwelt-entsorgung/umwelt/umweltzone/",
+    "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen"
+   ]
+  },
+  {
+   "id": "hagen",
+   "name": {
+    "de": "Hagen",
+    "en": "Hagen"
+   },
+   "land": "NW",
+   "status": "aktiv",
+   "stufe1": "2012-01-01",
+   "stufe2": "2013-01-01",
+   "stufe3": "2014-07-01",
+   "aufhebung": null,
+   "orte": [
+    "Hagen"
+   ],
+   "quellen": [
+    "https://www.hagen.de/unser-service/umwelt-natur-und-klima/umweltzonen-und-stadtklima/",
+    "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen"
+   ]
+  },
+  {
+   "id": "krefeld",
+   "name": {
+    "de": "Krefeld",
+    "en": "Krefeld"
+   },
+   "land": "NW",
+   "status": "aktiv",
+   "stufe1": "2011-01-01",
+   "stufe2": "2011-01-01",
+   "stufe3": "2012-07-01",
+   "aufhebung": null,
+   "orte": [
+    "Krefeld"
+   ],
+   "quellen": [
+    "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen"
+   ]
+  },
+  {
+   "id": "koeln",
+   "name": {
+    "de": "Köln",
+    "en": "Cologne"
+   },
+   "land": "NW",
+   "status": "aktiv",
+   "stufe1": "2008-01-01",
+   "stufe2": "2013-01-01",
+   "stufe3": "2014-07-01",
+   "aufhebung": null,
+   "orte": [
+    "Köln"
+   ],
+   "quellen": [
+    "https://www.stadt-koeln.de/leben-in-koeln/umwelt-tiere/luft-umweltzone/",
+    "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen"
+   ]
+  },
+  {
+   "id": "langenfeld",
+   "name": {
+    "de": "Langenfeld",
+    "en": "Langenfeld"
+   },
+   "land": "NW",
+   "status": "aktiv",
+   "stufe1": "2013-01-01",
+   "stufe2": "2013-01-01",
+   "stufe3": "2014-07-01",
+   "aufhebung": null,
+   "orte": [
+    "Langenfeld"
+   ],
+   "quellen": [
+    "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen"
+   ]
+  },
+  {
+   "id": "moenchengladbach",
+   "name": {
+    "de": "Mönchengladbach",
+    "en": "Mönchengladbach"
+   },
+   "land": "NW",
+   "status": "aktiv",
+   "stufe1": "2013-01-01",
+   "stufe2": "2013-01-01",
+   "stufe3": "2014-07-01",
+   "aufhebung": null,
+   "orte": [
+    "Mönchengladbach"
+   ],
+   "quellen": [
+    "https://www.moenchengladbach.de/rathaus/buergerinfo-a-z/planen-bauen-mobilitaet-umwelt-dezernat-vi/fachbereich-umwelt-64/landschaft-luftklima-immissionen/luftqualitaet-in-moenchengladbach/",
+    "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen"
+   ]
+  },
+  {
+   "id": "muenster",
+   "name": {
+    "de": "Münster",
+    "en": "Münster"
+   },
+   "land": "NW",
+   "status": "aktiv",
+   "stufe1": "2010-01-01",
+   "stufe2": "2010-01-01",
+   "stufe3": "2015-01-01",
+   "aufhebung": null,
+   "orte": [
+    "Münster"
+   ],
+   "quellen": [
+    "https://www.stadt-muenster.de/ordnungsamt/umweltzone",
+    "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen"
+   ]
+  },
+  {
+   "id": "neuss",
+   "name": {
+    "de": "Neuss",
+    "en": "Neuss"
+   },
+   "land": "NW",
+   "status": "aktiv",
+   "stufe1": "2010-02-15",
+   "stufe2": "2011-03-01",
+   "stufe3": "2014-07-01",
+   "aufhebung": null,
+   "orte": [
+    "Neuss"
+   ],
+   "quellen": [
+    "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen"
+   ]
+  },
+  {
+   "id": "overath",
+   "name": {
+    "de": "Overath",
+    "en": "Overath"
+   },
+   "land": "NW",
+   "status": "aktiv",
+   "stufe1": "2017-10-01",
+   "stufe2": "2017-10-01",
+   "stufe3": "2017-10-01",
+   "aufhebung": null,
+   "orte": [
+    "Overath"
+   ],
+   "quellen": [
+    "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen"
+   ]
+  },
+  {
+   "id": "remscheid",
+   "name": {
+    "de": "Remscheid",
+    "en": "Remscheid"
+   },
+   "land": "NW",
+   "status": "aktiv",
+   "stufe1": "2013-01-01",
+   "stufe2": "2013-01-01",
+   "stufe3": "2014-07-01",
+   "aufhebung": null,
+   "orte": [
+    "Remscheid"
+   ],
+   "quellen": [
+    "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen"
+   ]
+  },
+  {
+   "id": "ruhrgebiet",
+   "name": {
+    "de": "Ruhrgebiet",
+    "en": "Ruhr area"
+   },
+   "land": "NW",
+   "status": "aktiv",
+   "stufe1": "2012-01-01",
+   "stufe2": "2013-01-01",
+   "stufe3": "2014-07-01",
+   "aufhebung": null,
+   "orte": [
+    "Bochum",
+    "Bottrop",
+    "Castrop-Rauxel",
+    "Dortmund",
+    "Duisburg",
+    "Essen",
+    "Gelsenkirchen",
+    "Gladbeck",
+    "Herne",
+    "Herten",
+    "Mülheim",
+    "Oberhausen",
+    "Recklinghausen"
+   ],
+   "quellen": [
+    "https://www.brms.nrw.de/themen/umwelt-und-natur/immissionsschutz/umweltzonen-und-luftreinhalteplaene",
+    "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen"
+   ]
+  },
+  {
+   "id": "siegen",
+   "name": {
+    "de": "Siegen",
+    "en": "Siegen"
+   },
+   "land": "NW",
+   "status": "aktiv",
+   "stufe1": "2015-01-01",
+   "stufe2": "2015-01-01",
+   "stufe3": "2015-01-01",
+   "aufhebung": null,
+   "orte": [
+    "Siegen"
+   ],
+   "quellen": [
+    "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen"
+   ]
+  },
+  {
+   "id": "wuppertal",
+   "name": {
+    "de": "Wuppertal",
+    "en": "Wuppertal"
+   },
+   "land": "NW",
+   "status": "aktiv",
+   "stufe1": "2009-02-15",
+   "stufe2": "2011-03-01",
+   "stufe3": "2014-07-01",
+   "aufhebung": null,
+   "orte": [
+    "Wuppertal"
+   ],
+   "quellen": [
+    "https://www.umwelt.nrw.de/umwelt/umwelt-und-gesundheit/luft/umweltzonen"
+   ]
+  },
+  {
+   "id": "mainz",
+   "name": {
+    "de": "Mainz",
+    "en": "Mainz"
+   },
+   "land": "RP",
+   "status": "aufgehoben",
+   "stufe1": "2013-02-01",
+   "stufe2": "2013-02-01",
+   "stufe3": "2013-02-01",
+   "aufhebung": "2025-10-01",
+   "orte": [
+    "Mainz"
+   ],
+   "quellen": [
+    "https://www.mainz.de/angebote-entdecken/umwelt--und-naturschutz/immissionsschutz/luft/umweltzone"
+   ]
+  },
+  {
+   "id": "leipzig",
+   "name": {
+    "de": "Leipzig",
+    "en": "Leipzig"
+   },
+   "land": "SN",
+   "status": "aktiv",
+   "stufe1": "2011-03-01",
+   "stufe2": "2011-03-01",
+   "stufe3": "2011-03-01",
+   "aufhebung": null,
+   "orte": [
+    "Leipzig"
+   ],
+   "quellen": [
+    "https://www.leipzig.de/leben-in-leipzig/natur-und-umwelt/umwelt-und-naturschutz/luftreinhaltung/umweltzone"
+   ]
+  },
+  {
+   "id": "halle-saale",
+   "name": {
+    "de": "Halle (Saale)",
+    "en": "Halle (Saale)"
+   },
+   "land": "ST",
+   "status": "aktiv",
+   "stufe1": "2011-09-01",
+   "stufe2": "2011-09-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": null,
+   "orte": [
+    "Halle"
+   ],
+   "quellen": [
+    "https://halle.de/leben-in-halle/klimaschutz-und-umwelt/luft-laerm-und-elektrosmog/luftreinhalteplan-fuer-den-ballungsraum-halle"
+   ]
+  },
+  {
+   "id": "magdeburg",
+   "name": {
+    "de": "Magdeburg",
+    "en": "Magdeburg"
+   },
+   "land": "ST",
+   "status": "aktiv",
+   "stufe1": "2011-09-01",
+   "stufe2": "2011-09-01",
+   "stufe3": "2013-01-01",
+   "aufhebung": null,
+   "orte": [
+    "Magdeburg"
+   ],
+   "quellen": [
+    "https://www.magdeburg.de/B%C3%BCrger-Stadt/Leben-in-Magdeburg/Verkehr/Umweltzone/"
+   ]
+  },
+  {
+   "id": "erfurt",
+   "name": {
+    "de": "Erfurt",
+    "en": "Erfurt"
+   },
+   "land": "TH",
+   "status": "aufgehoben",
+   "stufe1": "2012-10-01",
+   "stufe2": "2012-10-01",
+   "stufe3": "2012-10-01",
+   "aufhebung": "2021-05-01",
+   "orte": [
+    "Erfurt"
+   ],
+   "quellen": [
+    "https://www.erfurt.de/mam/ef/leben/oekologie_und_umwelt/immission/fortschreibung_lrp_dez_2022.pdf"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,52 @@
+---
+/** Über uns (Vertrauensseite, RECETTE §8) : wer veröffentlicht, warum, woher die Angaben kommen. */
+import PageLayout from '../../layouts/PageLayout.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, AUTHOR_ROLE, SITE_NAMES } from '../../data/site-config';
+import { route, type Locale } from '../../i18n/routes';
+import { personSchema, organizationSchema, breadcrumbSchema, profilePageSchema } from '../../lib/seo';
+import { helpers } from '../../lib/helpers';
+import * as M from '../../lib/engine';
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const H = helpers(lang); const T = H.T;
+const crumb = T('Über uns', 'About');
+const name = SITE_NAMES[lang];
+const title = T(`${name}: wer die Prüfung der Umweltzonen 2026 macht`, `${name}: who runs this low-emission zone checker`);
+const description = T(
+  `Wer ${name} herausgibt, warum eine unabhängige Prüfung der Umweltzonen nötig war, woher Liste, Regeln und Bußgeld kommen und wie Sie Fehler melden.`,
+  `Who publishes ${name}, why an independent check of German zones was needed, where the list, rules and fine come from, and how to report an error.`);
+const mail = `mailto:${CONTACT_EMAIL}`;
+const nA = M.AKTIV.length, nZ = M.AUFGEHOBEN.length;
+---
+<PageLayout title={title} description={description} lang={lang} jsonLd={[personSchema(lang), organizationSchema(lang), profilePageSchema({ path: route('about', lang), lang }), breadcrumbSchema([{ name: T('Startseite', 'Home'), path: route('home', lang) }, { name: crumb, path: route('about', lang) }])]} breadcrumbs={[{ label: crumb }]}>
+  <header class="mb-6"><h1 class="text-3xl font-bold text-navy-900 md:text-4xl">{T(`Über ${name}`, `About ${name}`)}</h1></header>
+  <div class="prose prose-slate max-w-none">
+    <div class="not-prose mb-6"><p class="text-lg font-semibold text-navy-900">{AUTHOR_NAME}</p><p class="text-navy-700">{AUTHOR_ROLE[lang]}</p></div>
+    {lang === 'de' && <>
+      <p>{name} wird von Radif Partners herausgegeben, einem unabhängigen Herausgeber ohne Verbindung zu einer Behörde. Die Seite beantwortet drei Fragen, die sich jeder Autofahrer vor der Fahrt in eine deutsche Stadt stellt: Welche Plakette bekommt mein Fahrzeug, gilt in dieser Stadt überhaupt noch eine Umweltzone, und was passiert, wenn ich ohne passende Plakette hineinfahre?</p>
+      <h2>Warum es diese Seite gibt</h2>
+      <p>Seit 2023 haben viele Städte ihre Umweltzone aufgehoben, andere behalten sie, einige sperren zusätzlich ältere Diesel. Wer heute sucht, findet Listen, die noch Zonen führen, die es seit Jahren nicht mehr gibt, Seiten, die eine Plakette verkaufen wollen, und Bußgeldangaben, die nicht mehr stimmen. Wir wollten das Gegenteil: jede Zone auf die Liste des Umweltbundesamts zurückführen, jede Aufhebung mit Datum nennen und offen sagen, was wir nicht bestätigen konnten.</p>
+      <p><strong>{name} sagt in einem Schritt, ob Ihr Fahrzeug an einem bestimmten Tag in eine bestimmte Stadt darf: mit den {nA} aktiven und {nZ} aufgehobenen Zonen der amtlichen Liste, der Schadstoffgruppe nach der 35. BImSchV, den Diesel-Verkehrsverboten und dem Bußgeld des Bußgeldkatalogs, ohne Anmeldung und ohne Plakettenverkauf.</strong></p>
+      <h2>Woher die Angaben kommen</h2>
+      <p>Zonen, Stufen und Aufhebungen: die Liste des Umweltbundesamts. Zuordnung der Fahrzeuge und Ausnahmen: die 35. BImSchV in der Fassung vom 25. September 2026. Bußgeld: die Bußgeldkatalog-Verordnung. Einzelheiten einer Stadt: die Seiten der Städte und Länder und ihre Luftreinhaltepläne. Alles steht mit Lesedatum in der <a href={route('method', lang)}>Methode</a>.</p>
+      <h2>Was wir nicht sind</h2>
+      <p>Radif Partners ist weder das Umweltbundesamt noch eine Stadt, keine Zulassungsstelle und keine Prüforganisation. Wir geben keine Plaketten aus, verkaufen keine und empfehlen keine Ausgabestelle. Maßgeblich bleiben die Beschilderung vor Ort und die Schlüsselnummer in Ihren Papieren.</p>
+      <h2>Finanzierung und Daten</h2><p>Die Seite ist kostenlos und ohne Anmeldung. Die Prüfungen laufen in Ihrem Browser; was Sie eingeben, wird nicht gesendet. Falls hier eines Tages Werbung erscheint, steht sie nie über einer Prüfung und nie als Empfehlung.</p>
+      <h2>Zwei Sprachen</h2><p>Die Seite gibt es auf Deutsch und Englisch, für Fahrer aus Deutschland und für alle, die mit einem im Ausland zugelassenen Fahrzeug in eine deutsche Stadt fahren.</p>
+      <h2>Schreiben Sie uns</h2><p>Eine Zone, die aufgehoben wurde, eine neue Allgemeinverfügung, ein Fehler in der Zuordnung: <a href={mail}>{CONTACT_EMAIL}</a>. Siehe auch die <a href={route('editorial', lang)}>redaktionellen Grundsätze</a> und das <a href={route('terms', lang)}>Impressum</a>.</p>
+    </>}
+    {lang === 'en' && <>
+      <p>{name} is published by Radif Partners, an independent publisher with no link to any authority. It answers the three questions every driver has before heading into a German city: which sticker does my vehicle get, is there still a low-emission zone in this city, and what happens if I drive in without the right sticker?</p>
+      <h2>Why this site exists</h2>
+      <p>Since 2023 many cities have lifted their zone, others keep it, and a few also ban older diesels. Searching today turns up lists that still show zones lifted years ago, pages that want to sell you a sticker and fine amounts that are out of date. We wanted the opposite: every zone traced back to the Federal Environment Agency list, every lifting given with its date, and an open statement of what we could not confirm.</p>
+      <p><strong>{name} tells you in one step whether your vehicle may enter a given city on a given day: with the {nA} active and {nZ} lifted zones of the official list, the emission group under the 35th BImSchV, the diesel bans and the fine set by the fine catalogue, with no sign-up and no sticker sales.</strong></p>
+      <h2>Where the information comes from</h2>
+      <p>Zones, stages and liftings: the Federal Environment Agency list. Vehicle groups and exemptions: the 35th BImSchV as amended on 25 September 2026. Fine: the Fine Catalogue Ordinance. City details: the cities’ and states’ own pages and clean-air plans. Everything is listed with its reading date in the <a href={route('method', lang)}>method</a>.</p>
+      <h2>What we are not</h2>
+      <p>Radif Partners is not the Federal Environment Agency or a city, not a registration office and not a vehicle testing body. We issue no stickers, sell none and recommend no issuing office. The signs on site and the key number in your papers are what count.</p>
+      <h2>Funding and data</h2><p>The site is free and needs no sign-up. The checks run in your browser; nothing you type is sent anywhere. If advertising ever appears here, it will never sit above a check or be presented as a recommendation.</p>
+      <h2>Two languages</h2><p>The site is in German and English, for drivers from Germany and for anyone driving a foreign-registered vehicle into a German city.</p>
+      <h2>Write to us</h2><p>A zone that has been lifted, a new general order, an error in a group assignment: <a href={mail}>{CONTACT_EMAIL}</a>. See also the <a href={route('editorial', lang)}>editorial policy</a> and the <a href={route('terms', lang)}>legal notice</a>.</p>
+    </>}
+  </div>
+</PageLayout>

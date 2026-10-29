@@ -1,0 +1,40 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import { AUTHOR_NAME, CONTACT_EMAIL, LAST_UPDATED, SITE_NAMES } from '../../data/site-config';
+import { route, type Locale } from '../../i18n/routes';
+import { helpers } from '../../lib/helpers';
+interface Props { lang: Locale }
+const { lang } = Astro.props;
+const H = helpers(lang); const T = H.T;
+const name = SITE_NAMES[lang];
+const crumb = T('Redaktionelle Grundsätze', 'Editorial policy');
+const description = T(
+  `Woher die Zonen auf ${name} kommen, wer für sie einsteht, wie oft die Liste gelesen wird, wie Unbestätigtes gekennzeichnet ist und was bei einem Fehler geschieht.`,
+  `Where the zones on ${name} come from, who answers for them, how often the list is read, how unconfirmed points are labelled and what happens when an error is found.`);
+const mail = `mailto:${CONTACT_EMAIL}`;
+---
+<PageLayout title={`${crumb} – ${name}`} description={description} lang={lang} noindex={true} breadcrumbs={[{ label: crumb }]} showAuthor={false}>
+  <div class="prose prose-slate max-w-none">
+    {lang === 'de' && <>
+      <h1>Redaktionelle Grundsätze und Korrekturen</h1>
+      <p>Eine Zone, die als aktiv gilt, obwohl sie aufgehoben ist, und jemand kauft unnötig eine Plakette. Eine Zone, die als aufgehoben gilt, obwohl sie besteht, und jemand zahlt 100 Euro. Hier steht, wie wir beides vermeiden.</p>
+      <h2>Verantwortung</h2><p>{AUTHOR_NAME} steht für jede angezeigte Zone, jede Zuordnung und jeden Betrag ein. Eine Abweichung melden Sie an <a href={mail}>{CONTACT_EMAIL}</a>; wir prüfen sie an der amtlichen Quelle.</p>
+      <h2>Nur amtliche Quellen</h2><p>Zonen und Daten kommen aus der Liste des Umweltbundesamts, Regeln aus dem Gesetzestext, Einzelheiten aus den Seiten der Städte und Länder. Nichts wird von einem Plakettenhändler, einem Automobilclub oder einer anderen Seite übernommen. Was keine amtliche Quelle bestätigt, steht als „nicht bestätigt“ da.</p>
+      <h2>Vereinfachungen, immer genannt</h2><p>Die Prüfung der Plakette nach Abgasnorm folgt der vereinfachten Tabelle des Bundesumweltministeriums. Im Einzelfall entscheidet die Schlüsselnummer in den Fahrzeugpapieren; das steht neben jedem Ergebnis.</p>
+      <h2>Prüfungen vor der Veröffentlichung</h2><p>Jeder Build prüft die Zahl der Zonen, die Aufhebungsdaten, die Zuordnungsregeln und das Bußgeld gegen die gelesenen Werte; eine Abweichung stoppt die Veröffentlichung.</p>
+      <h2>Rhythmus</h2><p>Die Liste des Umweltbundesamts wird mindestens monatlich gelesen, die Seiten der Städte bei jeder gemeldeten Änderung.</p>
+      <h2>Unabhängigkeit</h2><p>Keine geschäftliche Verbindung zu einer Ausgabestelle, einer Prüforganisation oder einem Händler. Eine solche Verbindung würde im Text genannt.</p>
+    </>}
+    {lang === 'en' && <>
+      <h1>Editorial and corrections policy</h1>
+      <p>A zone shown as active when it has been lifted, and someone buys a sticker for nothing. A zone shown as lifted when it still applies, and someone pays a 100-euro fine. Here is how we avoid both.</p>
+      <h2>Responsibility</h2><p>{AUTHOR_NAME} answers for every zone, every group assignment and every amount shown. Report a discrepancy to <a href={mail}>{CONTACT_EMAIL}</a>; we check it against the official source.</p>
+      <h2>Official sources only</h2><p>Zones and dates come from the Federal Environment Agency list, rules from the legal text, details from the cities’ and states’ own pages. Nothing is copied from a sticker seller, a motoring club or another site. Anything no official source confirms is marked “not confirmed”.</p>
+      <h2>Simplifications, always stated</h2><p>The sticker check by Euro norm follows the Federal Environment Ministry’s simplified table. In an individual case the key number in the vehicle papers decides, and every result says so.</p>
+      <h2>Checks before publication</h2><p>Every build tests the number of zones, the lifting dates, the assignment rules and the fine against the values read; a mismatch stops publication.</p>
+      <h2>Rhythm</h2><p>The Federal Environment Agency list is read at least monthly, city pages whenever a change is reported.</p>
+      <h2>Independence</h2><p>No business link with any issuing office, testing body or seller. Any such link would be stated in the text.</p>
+    </>}
+    <p>{T('Siehe auch die', 'See also the')} <a href={route('method', lang)}>{T('Methode', 'method')}</a>. {T('Fassung:', 'Version:')} {H.date(LAST_UPDATED)}.</p>
+  </div>
+</PageLayout>
